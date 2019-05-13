@@ -19,6 +19,7 @@ async def on_message(message):
 		await client.send_file(message.channel, 'Resources/tanyao.png')
 
 	if message.content.startswith("あべべ"):
+		pass
 		# await message.channel.send("あべ...あべべ...")
 
 	if message.content.startswith('!pyar' or "ぴゃあ"):
